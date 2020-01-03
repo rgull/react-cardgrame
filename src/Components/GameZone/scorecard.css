@@ -1,0 +1,41 @@
+.scorecard-cont{
+    padding: 15px;
+    width: calc(100% - 30px);
+}
+.scorecard-cont h2{
+    line-height: 50px;
+    background-image: linear-gradient(rgba(255,255,255,1), rgba(185,185,185,1));
+    position: relative;
+    padding: 0px 25px;
+    margin: 0px;
+    box-shadow: 0px 0px 30px inset red;
+}
+.scorecard-cont h2::before,
+.scorecard-cont h2::after{
+    content: "";
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    background-image: linear-gradient(rgba(185,185,185,1), rgba(0,0,0,1));
+}
+.scorecard-cont h2::after{
+    left: auto;
+    right: 0px !important;
+}
+.scorecard-cont table{
+    width: 100%;
+}
+.scorecard-cont table tr{
+    background: rgba(255,255,255, 0.4);
+}
+.scorecard-cont table tr:first-child{
+    background: #000;
+}
+.scorecard-cont table td{
+    padding: 0px 10px;
+}
+.scorecard-cont table th{
+    color: #fff;
+}

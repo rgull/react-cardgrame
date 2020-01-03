@@ -1,0 +1,86 @@
+*:focus{
+    outline: none;
+}
+.main-player-area{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* flex-direction: column; */
+}
+.gamezone{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gamezone button{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background: url("../../images/deal-bg.jpg") center center;
+    font-size: 50px;
+    color: #fff;
+}
+.player{
+    margin: 10px 0px;
+    width: 108px;
+}
+.player img{
+    float: none;
+    display: block;
+    margin: 8px 15px;
+    margin-top: -90px;
+}
+
+.player img:first-child{
+    margin-top: 0px;
+}
+.player.player-1{
+    display: flex;
+    clear: both;
+    justify-content: center;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+.player.player-1 img{
+    float: left;
+    margin-top: 0px;
+    margin: 8px;
+}
+.player.player-2{
+    float: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-grow: 1;
+    align-items: flex-start;
+    margin-bottom: 0px;
+}
+.player.player-2 img{
+    display: inline-block;
+    margin-top: 0px
+}
+.player.player-3{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0px;
+}
+.player.player-4{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+}
+.player:last-child img{
+float: left;
+}

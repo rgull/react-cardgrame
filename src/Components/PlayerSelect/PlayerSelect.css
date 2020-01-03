@@ -1,0 +1,52 @@
+*:focus{
+    outline: none;
+}
+.player-cont{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frm-cont{
+    width: 350px;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.2));
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+.frm-cont label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+}
+.frm-cont button{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0px 15px;
+    background: #B5302D;
+    color: #fff;
+    text-align: center;
+    outline: none;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+}
+.frm-cont input[type=text],
+.frm-cont input[type=password],
+.frm-cont input[type=number]{
+    height: 32px;
+    border-radius: 10px;
+    border: 0px;
+}
+.form-group input{
+    width: calc(100% - 30px);
+    margin-bottom: 15px;
+    padding: 0px 15px;
+}
+.frm-cont p{
+    margin-top: 0px;
+}
